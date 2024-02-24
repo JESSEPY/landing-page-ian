@@ -20,14 +20,15 @@ a{
    opacity: 70%;
 }
 
-nav{
+.navbar{
     padding: 20px 200px 0px 200px;
     display: flex;
+    justify-content: space-between;
 }
 
 
-.nav{
-    gap: 10px;
+.nav-links{
+    gap: 50px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -38,6 +39,49 @@ nav{
 #logo-text{
     font-size: 24px;
     color: #FAF9F8;
+}
+
+.hero{
+    margin-top: 50px;
+    padding: 20px 200px 0px 200px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#hero-header{
+    color: #FAF9F8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+#hero-sub{
+    font-size: 15px;
+    color: #E5E7EB;
+    opacity: 70%;
+}
+
+
+#right{
+    width: 500px;
+}
+
+#left{
+    flex: 1;
+}
+
+button{
+    color: #FAF9F8;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+#banner{
+    width: 500px;
 }
 
 
